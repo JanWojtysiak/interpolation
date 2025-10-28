@@ -1,5 +1,5 @@
 import data_gold
-def find_bounding_points(x_new, wavelengths, n_values):
+def find_bounding_points(x_new):
     wavelengths = data_gold.WAVELENGTHS_UM
     n_values = data_gold.N_VALUES
     # --- Edge case 1: x_new is smaller than the first known point ---
